@@ -1,4 +1,3 @@
-
 /*
 const greeting = "Hello there people";
 const lengthOfGreeting = greeting.length;
