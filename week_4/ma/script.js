@@ -60,13 +60,13 @@ animalsList.appendChild(listItem);
 const apiGamesUrl = "https://api.rawg.io/api/games/3801";
 
 fetch(apiGamesUrl)
-    .then((response) => {
-        return response.json();
-    })
-    .then((data) => {
-        let ratingDiv = document.querySelector(".rating");
-        ratingDiv.innerText = data.rating;
-    })
-    .catch((error) => {
-        console.log(error);
-    })
+  .then(response => {
+    return response.json();
+  })
+  .then(data => {
+    let ratingDiv = document.querySelector(".rating");
+    ratingDiv.innerText = data.rating;
+  })
+  .catch(error => {
+    console.log(error);
+  });
