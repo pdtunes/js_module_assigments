@@ -36,13 +36,13 @@ console.log("🚀", filteredSentence);
 const queryString = document.location.search; // https://my.site.com?userId=7
 const params = new URLSearchParams(queryString);
 
-/*if (!params.has("userId")) {
+if (!params.has("userId")) {
   document.location.href = "third.html";
 } else if (params.get("userId") < 10) {
   document.location.href = "first.html";
 } else {
   document.location.href = "second.html";
-}*/
+}
 
 // Q5
 const containerDiv = document.querySelector(".container");
