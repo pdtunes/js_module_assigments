@@ -72,6 +72,7 @@ const baseUrl = "https://api.rawg.io/api/";
 const endPoint = "games/"
 const gamesId = "3801"
 
+
 fetch(`${baseUrl}${endPoint}${gamesId}`)
   .then(response => {
     return response.json();
